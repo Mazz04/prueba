@@ -1,0 +1,117 @@
+html {
+    font-family: 'Labrada', serif;
+}
+
+body {
+    margin: 0;
+    background-color: #c4dfe6;
+}
+
+header {
+    background-color: #a43820;
+    color: black;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 3.7rem;
+    text-align: left;
+}
+
+table{
+    padding: 10px 0px 20px 20px;
+    width :60%;
+    text-align: center;
+
+
+ }
+
+.ini {
+    padding: 10px 10px 10px 10px;
+    color:var(--color-secundario-claro);
+    font-family: var(--fuente-titulos);
+    font-size: 15px;
+    text-shadow: 3px 5px 5px black;
+ }
+
+ th, td {
+  
+
+    padding: 10px 10px 10px 10px;
+    color:var(--color-secundario-claro);
+    font-family: var(--fuente-titulos);
+    font-size: 15px;
+
+ }
+.tituloTabla{
+
+    color:var(--color-secundario-oscuro);
+    font-family: var(--fuente-titulos);
+    font-size: 40px;
+    text-decoration:none;
+    
+
+}
+
+.descripcionTabla{
+
+    text-align: left;
+    color:var(--color-secundario-claro);
+    font-family: var(--fuente-texto);
+    font-size: 20px;   
+    text-decoration:none;
+    border-style:hidden hidden solid hidden ;
+
+}
+ tr:hover {
+    cursor: pointer;
+}
+
+
+/*
+.cont {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+*/
+
+footer {
+    background-color: #46211a;
+    padding: 3rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
