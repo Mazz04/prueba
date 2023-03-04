@@ -4,7 +4,10 @@ html {
 
 body {
     margin: 0;
-    background-color: #c4dfe6;
+    background-color: #c4dfe6 !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -26,13 +29,13 @@ header h1 {
 
 }
 
-.textovideo {
+.textoVideo {
     position: relative;
     padding: 0rem 0rem 0rem 9rem;
     margin: auto;
 }
 
-.textovideo1 {
+.textoVideo1 {
     position: relative;
     padding: 0rem 0rem 0.5rem 11rem;
     margin: auto;
@@ -124,11 +127,10 @@ div h1 {
 
 .left {
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 30%;
     padding: 0;  
     transition: all 0.3s ease;
-    margin: 0rem 2rem 0rem;
+    margin: 0rem 2rem 0rem !important;
     border-radius: 0.5rem;
 
 }
@@ -137,34 +139,16 @@ div h1 {
     box-shadow: 0.2rem 0.3rem 0.4rem 0rem rgba(0, 0, 0, 3);
 }
 
-/*
-.cont {
-    width: 400px;
-    margin: 0 auto;
-}
+.historia {
+    font-size: 1.3rem;
 
-section article {
-    transition: all 0.3s ease;
-    background-color: #fff;
-    margin: 1rem 0;
-    border-radius: 0.5rem;
-    padding: 0.25rem 0;
-    cursor: pointer;
 }
-
-section article:hover {
-    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 3);
-}
-
-section article h2, section article p {
-    margin: 1rem;
-}
-*/
 
 footer {
     background-color: #46211a;
     padding: 3rem;
     color: white;
+    margin-top: auto;
 }
 
 footer section {
