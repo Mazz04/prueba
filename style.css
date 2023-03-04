@@ -87,6 +87,55 @@ table{
     cursor: pointer;
 }
 
+div h1 {
+    font-size: 3.7rem;
+    text-align: left;
+    padding: 33rem 2rem 6rem;
+
+
+}
+
+.faseDos {
+    padding: 19rem 2rem 6rem;
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.faseDos:hover{
+    color: rgb(121, 33, 33);
+}
+.subtitulo {
+    transition: color 0.5s ease;
+    cursor: pointer;
+}
+
+.subtitulo:hover {
+    color: rgb(121, 33, 33);
+}
+
+.subtitulo1 {
+    transition: color 0.5s ease;
+    cursor: pointer;
+
+}
+.subtitulo1:hover {
+    color: rgb(17, 0, 255);
+}
+
+.left {
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding: 0;  
+    transition: all 0.3s ease;
+    margin: 0rem 2rem 0rem;
+    border-radius: 0.5rem;
+
+}
+
+.left:hover {
+    box-shadow: 0.2rem 0.3rem 0.4rem 0rem rgba(0, 0, 0, 3);
+}
 
 /*
 .cont {
