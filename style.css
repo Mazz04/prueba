@@ -18,6 +18,26 @@ header h1 {
     text-align: left;
 }
 
+.video {
+    width: auto;
+    position: center;
+    float: right;
+    padding: 2.5rem;
+
+}
+
+.textovideo {
+    position: relative;
+    padding: 0rem 0rem 0rem 9rem;
+    margin: auto;
+}
+
+.textovideo1 {
+    position: relative;
+    padding: 0rem 0rem 0.5rem 11rem;
+    margin: auto;
+}
+
 table{
     padding: 10px 0px 20px 20px;
     width :60%;
